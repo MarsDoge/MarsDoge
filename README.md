@@ -14,8 +14,25 @@
   <i>Interest is the best teacher! 🌟</i>
 </p>
 
+<p align="center">
+  <a href="https://opencode.ai">
+    <picture>
+      <source
+        srcset="https://github.com/anomalyco/opencode/blob/dev/packages/console/app/src/asset/logo-ornate-dark.svg"
+        media="(prefers-color-scheme: dark)">
+      <source
+        srcset="https://github.com/anomalyco/opencode/blob/dev/packages/console/app/src/asset/logo-ornate-light.svg"
+        media="(prefers-color-scheme: light)">
+      <img
+        src="https://github.com/anomalyco/opencode/blob/dev/packages/console/app/src/asset/logo-ornate-light.svg"
+        alt="OpenCode logo">
+    </picture>
+  </a>
+</p>
+
 <!-- Footer -->
 <p align="center">
   Made with ❤️ by Dongyan GPTs 🌍<br>
   <i>Let's make the world a friendlier place, one "hello" at a time!</i>
 </p>
+
