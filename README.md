@@ -15,6 +15,13 @@
 </p>
 
 <p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text-dark.png">
+        <img src="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png" alt="OpenClaw" width="500">
+    </picture>
+</p>
+
+<p align="center">
   <a href="https://opencode.ai">
     <picture>
       <source
