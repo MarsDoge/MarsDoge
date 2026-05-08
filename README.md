@@ -1,95 +1,159 @@
-<!-- Header -->
-<h1 align="center">🌟 Multilingual Greetings! 🌟</h1>
+<h1 align="center">MarsDoge</h1>
 
 <p align="center">
-  <strong>Hello</strong> &emsp; <strong>你好</strong> &emsp; <strong>hola</strong> &emsp; <strong>أهلا</strong> &emsp; <strong>xin chào</strong> &emsp; <strong>नमस्ते</strong> &emsp; <strong>ciao</strong> &emsp; <strong>こんにちは</strong> &emsp; <strong>halo</strong>
-</p>
-<p align="center">
-  <strong>হ্যালো</strong> &emsp; <strong>bonjour</strong> &emsp; <strong>안녕하세요</strong> &emsp; <strong>olá</strong> &emsp; <strong>ਸਤ ਸ੍ਰੀ ਅਕਾਲ</strong> &emsp; <strong>habari</strong> &emsp; <strong>ہیلو</strong> &emsp; <strong>guten tag</strong>
+  <strong>Firmware · LoongArch · UEFI/EDK II · ROCm · AI-assisted Engineering</strong>
 </p>
 
-<p align="center"><i>Interest is the best teacher.</i></p>
+<p align="center">
+  Dongyan Qian · Beijing, China · UEFI Development @ Loongson Technology Co., Ltd.
+</p>
 
 <p align="center">
-  <a href="https://github.com/openclaw/openclaw">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text-dark.png">
-      <img src="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png" alt="OpenClaw" width="180">
-    </picture>
-  </a>
-  &emsp;&emsp;
-  <a href="https://opencode.ai">
-    <img src="https://github.com/anomalyco/opencode/blob/dev/packages/console/app/src/asset/logo-ornate-light.svg" alt="OpenCode" width="180">
-  </a>
+  <a href="https://mars.dogexorg.com/blog">Blog</a> ·
+  <a href="https://github.com/MarsDoge">GitHub</a> ·
+  <a href="https://x.com/MarsDogeCo">X / Twitter</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Firmware-UEFI%20%2F%20EDK%20II-111827?style=flat-square" alt="Firmware: UEFI / EDK II" />
+  <img src="https://img.shields.io/badge/Architecture-LoongArch-7f1d1d?style=flat-square" alt="Architecture: LoongArch" />
+  <img src="https://img.shields.io/badge/Systems-Linux%20%2F%20Platform-0f172a?style=flat-square" alt="Systems: Linux / Platform" />
+  <img src="https://img.shields.io/badge/Workflow-AI--assisted-2563eb?style=flat-square" alt="Workflow: AI-assisted" />
 </p>
 
 ---
 
-# Hi, I'm Dongyan
+## About
 
-💻 Firmware Developer  
-⚙️ LoongArch · ROCm · Low-level Systems · AI-assisted Engineering
+I work close to hardware: firmware, boot flows, platform enablement, runtime compatibility, and the tooling that makes low-level engineering easier to inspect and reproduce.
 
-<p>
-  <img src="https://img.shields.io/badge/UEFI-EDK%20II-555" />
-  <img src="https://img.shields.io/badge/Architecture-LoongArch-blue" />
-  <img src="https://img.shields.io/badge/GPU-ROCm%20%7C%20HIP-red" />
-  <img src="https://img.shields.io/badge/Systems-Linux-black" />
-  <img src="https://img.shields.io/badge/C-C%20%7C%20C++-blueviolet" />
-  <img src="https://img.shields.io/badge/Tooling-Python%20%7C%20Shell-green" />
-  <img src="https://img.shields.io/badge/Build-CMake%20%7C%20Clang-orange" />
-  <img src="https://img.shields.io/badge/AI%20Workflow-OpenClaw%20%7C%20OpenCode%20%7C%20Codex-222" />
-</p>
+喜欢把底层系统问题拆开、验证、修好，然后写下来。
 
-> Working on firmware, platform enablement, ROCm adaptation, and system-level debugging — while actively exploring AI tools that improve engineering workflows.
+My day-to-day work sits between firmware implementation, debugging traces, build systems, and practical automation. I care about small, explainable changes and documentation that survives beyond a single debugging session.
 
-## Current Work
+---
 
-- **Firmware / EDK II** development and platform bring-up
-- **LoongArch** ecosystem support and integration
-- build, packaging, validation, and automation tooling
+## Focus
 
-## Current Interests
+- UEFI firmware development and EDK II workflows
+- LoongArch platform enablement and low-level system software
+- Firmware debugging, boot flow analysis, and platform bring-up
+- C / C++ / Shell / Python tooling for systems engineering
+- ROCm, GPU runtime, and cross-architecture compatibility experiments
+- AI-assisted review, translation, documentation, and automation loops
+- Turning debugging notes into reusable technical writing
 
-- firmware and boot flows
-- GPU runtime behavior
-- cross-architecture compatibility
-- system observability and reproducible debugging
-- AI-assisted workflows for low-level engineering
+---
 
+## Selected projects
 
-## AI Stack
+| Project | Area | Notes |
+|---|---|---|
+| [OsTools](https://github.com/MarsDoge/OsTools) | LoongArch / Systems | Platform utility toolkit for register reading, firmware updates, and hardware status checks |
+| [llm-translate](https://github.com/MarsDoge/llm-translate) | AI tooling | Multi-provider translation workflow for CLI and editor use |
+| [persona-distillation-lab](https://github.com/MarsDoge/persona-distillation-lab) | AI agents | Experiments around reusable agent skills, behavior, and cognitive distillation |
+| [openclaw-community](https://github.com/MarsDoge/openclaw-community) | Agents / Community | Community work around OpenClaw-style agent workflows |
+| [ollama-gpt](https://github.com/MarsDoge/ollama-gpt) | Local LLM | Experiments with local and self-hosted model workflows |
 
-### Tools
-- **OpenClaw**
-- **OpenCode**
-- **Codex**
-- **Claude Code**
-- **Vercel**
-- **Cloudflare**
+Some repositories are experiments, notes, or work-in-progress labs. I prefer small, inspectable tools over large opaque abstractions.
 
-### Model Ecosystem
-- **Text / Reasoning:** ChatGPT 5.4, Anthropic Claude Opus4.6, Qwen-x, GLM-4.7, etc..
-- **Embedding:** embedding models for retrieval, indexing, and semantic search
-- **Memory:** long-context, retrieval, and memory-oriented agent workflows
-- **Audio / Video:** speech, multimodal, and video-capable foundation models
+---
 
-## Tool Stack
+## Stack
 
-- **Firmware & Platform:** UEFI, EDK II, LoongArch, PCIe
-- **Systems:** Linux, C, C++, Python, Shell
-- **GPU & Runtime:** ROCm, HIP, CUDA compatibility analysis
-- **Workflow:** GitHub, CI, packaging, automation, log-driven debugging
-- **AI-native development:** **agent tools, coding copilots, retrieval, memory, multimodal workflows**
+### Firmware / platform
 
-## Philosophy
+![UEFI](https://img.shields.io/badge/UEFI-Firmware-111827?style=flat-square)
+![EDK II](https://img.shields.io/badge/EDK%20II-Platform%20Firmware-1f2937?style=flat-square)
+![LoongArch](https://img.shields.io/badge/LoongArch-Architecture-7f1d1d?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-Systems-0f172a?style=flat-square)
+![ROCm](https://img.shields.io/badge/ROCm-Runtime-ef4444?style=flat-square)
 
-> Correct before clever.  
-> Understand the mechanism, not only the symptom.
+### Languages and tooling
 
-<!-- Footer -->
+![C](https://img.shields.io/badge/C-Low%20Level-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-Systems-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-Automation-121011?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Tooling-3776AB?style=flat-square&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Review%20%2F%20Bisect-F05032?style=flat-square&logo=git&logoColor=white)
+
+### Daily engineering
+
+- Firmware logs, serial consoles, QEMU, and platform traces
+- Patch review, bisect-driven debugging, and reproducible test notes
+- Build systems, scripts, and local-first development environments
+- LLM-assisted workflows where they improve feedback loops and reduce repetitive work
+
+---
+
+## Engineering notes
+
+> Understand the boot path before changing the boot path.
+
+- Make debugging artifacts useful: logs, notes, reproduction steps, and minimal patches.
+- Prefer boring, reliable tools for critical paths.
+- Keep abstractions honest; low-level systems do not forgive vague assumptions.
+- Optimize for reproducibility before cleverness.
+- Automate repeated work, but keep the escape hatch visible.
+- Use AI as a review and exploration assistant, not as a replacement for engineering judgment.
+
+少一点玄学，多一点证据。
+
+---
+
+## AI-assisted workflow
+
+I use AI tools as part of a practical engineering loop: collect context, inspect code and logs, generate hypotheses, make small changes, review diffs, test results, and document what was learned.
+
+The goal is not to chase every new model. The goal is to reduce friction in reading, debugging, translating, testing, and documenting complex systems.
+
+---
+
+## Writing and contact
+
+I write about firmware, system software, LoongArch, AI tooling, and engineering notes.
+
+- Blog: https://mars.dogexorg.com/blog
+- GitHub: https://github.com/MarsDoge
+- X / Twitter: https://x.com/MarsDogeCo
+- Location: Beijing, China
+
+For technical discussion, GitHub issues and discussions are usually the best starting point.
+
+---
+
+## GitHub stats
+
 <p align="center">
-  Made with ❤️ by Dongyan GPTs 🌍<br>
-  <i>Let's make the world a friendlier place, one "hello" at a time!</i>
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=MarsDoge&show_icons=true&theme=github_dark&hide_border=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=MarsDoge&show_icons=true&theme=default&hide_border=true"
+      media="(prefers-color-scheme: light)"
+    />
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=MarsDoge&show_icons=true&theme=github_dark&hide_border=true"
+      alt="MarsDoge GitHub stats"
+    />
+  </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MarsDoge&layout=compact&theme=github_dark&hide_border=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MarsDoge&layout=compact&theme=default&hide_border=true"
+      media="(prefers-color-scheme: light)"
+    />
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarsDoge&layout=compact&theme=github_dark&hide_border=true"
+      alt="MarsDoge top languages"
+    />
+  </picture>
+</p>
